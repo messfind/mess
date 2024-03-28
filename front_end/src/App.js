@@ -39,7 +39,7 @@ function App() {
           Authorization: 'Bearer ' + token,
         },
       });
-      console.log(headers)
+      // console.log(headers)
       setuser(data)
     } catch (error) {
       console.log(error.response)
