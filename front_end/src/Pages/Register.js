@@ -34,7 +34,7 @@ function Register() {
         }
 //http://localhost:4040/api/users/register
         try {
-            await axios.post("https://leyikun.onrender.com/", {
+            await axios.post("https://leyikun.onrender.com/users/register", {
                 userid: useridValue,
                 username: usernameValue,
                 firstName: firstNameValue,
