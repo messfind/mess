@@ -24,7 +24,7 @@ function Login() {
         }
         // http://localhost:4040/api/users/login
         try {
-            const { data } = await axios.post("https://leyikun.onrender.com/", {
+            const { data } = await axios.post("https://leyikun.onrender.com/users/login", {
                 email: emailValue,
                 password: passwordValue,
             });
